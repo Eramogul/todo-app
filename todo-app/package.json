@@ -1,0 +1,24 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple Todo App backend with Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Building project...'", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["todo", "express", "mongodb", "api"],
+  "author": "Your Name",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1"
+  }
+}
+
